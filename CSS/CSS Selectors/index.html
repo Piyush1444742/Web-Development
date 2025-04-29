@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Element Selector */
+        div {
+            background-color: red;
+        }
+
+        /* Class Selector */
+        .red {
+            background-color: pink;
+        }
+
+        /* ID Selector */
+        #green {
+            background-color: yellow;
+        }
+
+        /* Child Selector */
+        div>p {
+            color: yellow;
+            background-color: green;
+        }
+
+        /* Descendent Selector */
+        div p {
+            color: red;
+            background-color: green;
+        }
+
+        /* Universal Selectors */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Pseudo Selector */
+        a:visited {
+            color: yellow;
+        }
+
+        a:link {
+            color: green;
+        }
+
+        a:active {
+            background-color: red;
+        }
+
+        a:hover {
+            background-color: purple;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        I am div
+    </div>
+    <div class="red">
+        I am studying
+    </div>
+    <div id="green">I am fellow</div>
+
+    <div>
+        <article>
+            <p>I am paragraph</p>
+        </article>
+    </div>
+    <a href="https://www.google.com">Go To Google</a>
+    <a href="https://www.codewithharry.com">Go To Code with harry</a>
+</body>
+
+</html>
